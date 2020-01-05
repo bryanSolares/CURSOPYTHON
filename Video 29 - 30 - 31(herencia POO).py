@@ -56,8 +56,8 @@ class VehiculosElectricos():
         print("Cargado Energía")
         print("Autonomía: ", self.__autonomia)
 
-#herencia múltiple
-class BicicletaElectrica(Vehiculo,VehiculosElectricos):
+#herencia múltiple (se toma el método init (constructor) de la primera clase de la que se está heredando)
+class BicicletaElectrica(Vehiculo,VehiculosElectricos): # <-- la preferencia de herencia de métodos se hará de la clase a la izquierda de la herencia (métodos con el mismo nombre)
     pass
 
 
@@ -74,7 +74,7 @@ print(furgoneta.carga(True))
 
 print("--------------------------------------")
 
-bicicleta = BicicletaElectrica("Orbea","HX10030")
+bicicleta = BicicletaElectrica("Masesa","DG#D#")
 bicicleta.acelerar()
 bicicleta.estadoVehiculo()
 bicicleta.cargarEnergia()
