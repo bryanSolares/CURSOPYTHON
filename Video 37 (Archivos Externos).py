@@ -22,5 +22,5 @@ archivotexto.write("\nEsta es una nueva línea agregada")
 archivotexto.close
 
 archivotexto = open("archivo.txt","r+") # <-- lectura y escritura pero el curso a partir de inicio
-archivotexto.write("\nEsta es una nueva línea agregada")
+archivotexto.write("\nEsta es una nueva línea agregada ")
 archivotexto.close
