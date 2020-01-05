@@ -1,0 +1,9 @@
+setup.py
+PaqueteCalculos.egg-info/PKG-INFO
+PaqueteCalculos.egg-info/SOURCES.txt
+PaqueteCalculos.egg-info/dependency_links.txt
+PaqueteCalculos.egg-info/top_level.txt
+calculos_video_35/CalculosGenerales_35.py
+calculos_video_35/__init__.py
+calculos_video_35/avanzados_35/__init__.py
+calculos_video_35/avanzados_35/avanzados_35.py
